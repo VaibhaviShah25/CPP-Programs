@@ -96,6 +96,26 @@ int main()
     m2.input();
     m1.show();
     m2.show();
+    s = m1 + m2;
+    cout<<"Addition is : ";
+    s.show();
+    s = m1 - m2;
+    cout<<"Subtraction is : ";
+    s.show();
+    if(m1 > m2)
+    {
+       m1.show();
+       cout<<"is greater"<<endl<<endl;
+    }
+    else if(m1 == m2)
+    {
+        cout<<"Both time are same"<<endl<<endl;
+    }
+    else
+    {
+       m2.show();
+       cout<<"is greater"<<endl<<endl;
+    }
     cout<<"Post Increment of Time 1 is : ";
     ++m1;
 return 0;
