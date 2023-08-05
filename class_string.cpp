@@ -35,7 +35,7 @@ public:
         int i,j,len = 0;
         for(j=0;j<n;j++)
         {
-        for(i=0;arr[i] != 0;i++)
+        for(i=0;arr[i] != '\0';i++)
         {
             res.arr[len++] = arr[i];
         }
